@@ -1,5 +1,18 @@
 <nav class="{% if page.title == "Home" %}nav-home{% else %}nav{% endif %}">
     <ul class="list">
+        {% if site.about == true %}
+            {% if page.title != "About" %}
+                <li class="item">
+                    <a class="link" href="{{ site.url }}/about">
+                        {% if page.title == "Home" %}
+                            <img src="{{ site.url }}/assets/images/robot-wave-icon.jpg" alt="About">
+                        {% endif %}
+                        About
+                    </a>
+                </li>
+            {% endif %}
+        {% endif %}
+        
         {% if page.title != "Home" %}
             <li class="item">
                 <a class="link" href="{{ site.url }}/">Home</a>
@@ -17,22 +30,24 @@
         {% if site.projects == true %}
             {% if page.title != "Projects" %}
                 <li class="item">
-                    <a class="link" href="{{ site.url }}/projects">Projects</a>
-                </li>
-            {% endif %}
-        {% endif %}
-
-        {% if site.about == true %}
-            {% if page.title != "About" %}
-                <li class="item">
-                    <a class="link" href="{{ site.url }}/about">About</a>
+                    <a class="link" href="{{ site.url }}/projects">
+                        {% if page.title == "Home" %}
+                            <img src="{{ site.url }}/assets/images/robot-arm-icon.png" alt="Projects">
+                        {% endif %}
+                        Projects
+                    </a>
                 </li>
             {% endif %}
         {% endif %}
 
         {% if site.resume == true %}
             <li class="item">
-                <a class="link" href="{% if site.resume-external %}{{ site.resume-url }}{% else %}{{ site.url }}/{{ site.resume-url }}{% endif %}">CV</a>
+                <a class="link" href="{% if site.resume-external %}{{ site.resume-url }}{% else %}{{ site.url }}/{{ site.resume-url }}{% endif %}">
+                    {% if page.title == "Home" %}
+                        <img src="{{ site.url }}/assets/images/robot-wave-icon.jpg" alt="About">
+                    {% endif %}
+                    CV
+                </a>
             </li>
         {% endif %}
     </ul>

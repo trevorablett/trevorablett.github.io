@@ -18,9 +18,15 @@
 
         <h1 class="title">{{ site.name }}</h1>
         <h2 class="description">{{ site.bio }}</h2>
-
-        {% include social-links.html %}
+        
+        {% if page.title != "Home" %}
+            {% include social-links.html %}
+        {% endif %}
     </header>
 {% endif %}
 
 {% include nav.html %}
+
+<!-- {% if page.title == "Home" %} -->
+    <!-- {% include social-links.html %} -->
+<!-- {% endif %} -->
