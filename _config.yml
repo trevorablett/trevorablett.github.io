@@ -1,9 +1,11 @@
 # main text of home
 name: Trevor Ablett
-bio: A Man who travels the world eating noodles
+bio: 'PhD student at University of Toronto. <br />
+Part of the <a href="https://starslab.ca">STARS Lab</a>. <br />
+Researching the intersection of Machine Learning and Robotics.'
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: Personal website for Trevor Ablett
 
 # if it's an external image, update below for true
 # better with square images
@@ -31,40 +33,35 @@ permalink: /:title/
 # if you don't want comments in your posts, leave categories empty
 disqus:
   shortname: mydisqus # enter this from your disqus account
-  categories: [blog, project] # only show disqus for posts that have these categories
+  categories: [project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
+# facebook: myfacebook
+twitter: trevorablett
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
-# linkedin: mylinkedin
+linkedin: trevor-ablett
 # youtube: myyoutube
 # spotify: myspotify
-github: mygithub
+github: trevorablett
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
-medium: medium
+# medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: myemail@gmail.com
+email: trevor.ablett@robotics.utias.utoronto.ca
+googlescholar: citations?user=p3NT2IoAAAAJ&hl=en
 
 authors:
-    johndoe:
-        name: John Doe
-        bio: A Man who travels the world eating noodles
+    trevorablett:
+        name: Trevor Ablett
+        bio: PhD student at University of Toronto
         external-image: false
-        picture: assets/images/profile.jpg
+        picture: assets/images/trevor_275_lab.jpg
         twitter: johndoe
-    jamesfoster:
-        name: James Foster
-        bio: A Man who develops software with coffee
-        external-image: false
-        picture: assets/images/james.jpg
-        twitter: jamesfoster
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -80,7 +77,7 @@ projects: true
 
 # if you don't need "about" or "blog", comment them out below
 about: true
-blog: true
+# blog: true
 
 # do you want to show the "read time" of the posts?
 read-time: true
