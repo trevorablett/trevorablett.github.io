@@ -29,6 +29,11 @@ published: true
 
         {% if publication.img %}
             <img class="left" src="{{ publication.img }}">
+        {% elsif publication.vid %}
+            <video class="left" autoplay loop muted>
+                <source src="{{ publication.vid }}" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
         {% endif %}
   
         {% if publication.links.doi %}
