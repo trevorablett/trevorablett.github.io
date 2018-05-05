@@ -25,12 +25,16 @@ title: Research
     {% assign sorted_pubs = project.publications | sort:"date" %}
     
     {% for publication in sorted_pubs reversed %}
+    
+        <table class="proj-table">
 
         {% if publication.img %}
-            <img class="left" src="{{ publication.img }}">
+            <td class="img-col">
+                <img  src="{{ publication.img }}">
+            </td>
         {% endif %}
   
-        <div style="overflow: auto;">
+        <td>
             {% if publication.links.doi %}
                 <a href="{{ publication.links.doi }}" target="_blank"><b>{{ publication.title }}</b></a>
             {% else %}
@@ -75,8 +79,10 @@ title: Research
             {% if publication.links %}
                 <br/>
             {% endif %}
-        </div>
+        </td>
 
+        </table>
+        
         <br/>
     {% endfor %}
 
