@@ -26,63 +26,59 @@ published: true
     {% assign sorted_pubs = project.publications | sort:"date" %}
     
     {% for publication in sorted_pubs reversed %}
-    
-        <table class="proj-table">
 
         {% if publication.img %}
-            <td class="img-col">
-                <img  src="{{ publication.img }}">
-            </td>
+            <img class="left" src="{{ publication.img }}">
         {% endif %}
   
-        <td>
-            {% if publication.links.doi %}
-                <a href="{{ publication.links.doi }}" target="_blank"><b>{{ publication.title }}</b></a>
-            {% else %}
-                <b>{{ publication.title }}</b>
-            {% endif %}
+        {% if publication.links.doi %}
+            <a href="{{ publication.links.doi }}" target="_blank"><b>{{ publication.title }}</b></a>
+        {% else %}
+            <b>{{ publication.title }}</b>
+        {% endif %}
+        <br/>
+
+        <i>{{ publication.authors }}</i>
+        <br/>
+
+        {{ publication.venue }}
+        <br/>
+
+        {% if publication.note %}
+            <i>{{ publication.note }}</i><br/>
+        {% endif %}
+
+        {% if publication.award %}
+            <b>{{ publication.award }}</b><br/>
+        {% endif %}
+
+        {% if publication.links.link %}
+            <a href="{{ publication.links.link }}" target="_blank"><i class="far fa-file-alt"></i>&nbsp;Link</a>&nbsp;
+        {% endif %}
+        
+        {% if publication.links.preprint %}
+            <a href="{{ publication.links.preprint }}" target="_blank"><i class="far fa-file-alt"></i>&nbsp;Preprint</a>&nbsp;
+        {% endif %}
+
+        {% if publication.links.code %}
+            <a href="{{ publication.links.code }}" target="_blank"><i class="fas fa-code-branch"></i>&nbsp;Code</a>&nbsp;
+        {% endif %}
+
+        {% if publication.links.slides %}
+            <a href="{{ publication.links.slides }}" target="_blank"><i class="fas fa-desktop"></i>&nbsp;Slides</a>&nbsp;
+        {% endif %}
+
+        {% if publication.links.poster %}
+            <a href="{{ publication.links.poster }}" target="_blank"><i class="far fa-image"></i>&nbsp;Poster</a>&nbsp;
+        {% endif %}
+
+        {% if publication.links.video %}
+            <a href="{{ publication.links.video }}" target="_blank"><i class="fab fa-youtube"></i>&nbsp;Video</a>&nbsp;
+        {% endif %}
+
+        {% if publication.links %}
             <br/>
-
-            <i>{{ publication.authors }}</i>
-            <br/>
-
-            {{ publication.venue }}
-            <br/>
-
-            {% if publication.note %}
-                <i>{{ publication.note }}</i><br/>
-            {% endif %}
-
-            {% if publication.award %}
-                <b>{{ publication.award }}</b><br/>
-            {% endif %}
-
-            {% if publication.links.preprint %}
-                <a href="{{ publication.links.preprint }}" target="_blank"><i class="far fa-file-alt"></i>&nbsp;Preprint</a>&nbsp;
-            {% endif %}
-
-            {% if publication.links.code %}
-                <a href="{{ publication.links.code }}" target="_blank"><i class="fas fa-code-branch"></i>&nbsp;Code</a>&nbsp;
-            {% endif %}
-
-            {% if publication.links.slides %}
-                <a href="{{ publication.links.slides }}" target="_blank"><i class="fas fa-desktop"></i>&nbsp;Slides</a>&nbsp;
-            {% endif %}
-
-            {% if publication.links.poster %}
-                <a href="{{ publication.links.poster }}" target="_blank"><i class="far fa-image"></i>&nbsp;Poster</a>&nbsp;
-            {% endif %}
-
-            {% if publication.links.video %}
-                <a href="{{ publication.links.video }}" target="_blank"><i class="fab fa-youtube"></i>&nbsp;Video</a>&nbsp;
-            {% endif %}
-
-            {% if publication.links %}
-                <br/>
-            {% endif %}
-        </td>
-
-        </table>
+        {% endif %}
         
         <br/>
     {% endfor %}
