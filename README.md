@@ -1,1 +1,1 @@
-Code for my never-finished personal website.
+Code for my never-finished personal website. Based on [indigo](https://github.com/sergiokopplin/indigo) theme using [Jekyll](https://jekyllrb.com/).
