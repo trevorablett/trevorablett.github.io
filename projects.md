@@ -3,4 +3,4 @@ layout: page
 title: Projects
 ---
 
-Check back soon, to be completed!
+<p> This page is a work in progress, check back soon! </p>
