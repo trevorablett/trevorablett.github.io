@@ -1,9 +1,10 @@
 ---
 layout: page
 title: Research
+published: true
 ---
 
-<p>For a full list of my published work, see my <a href="scholar.google.com/citations?user=p3NT2IoAAAAJ&hl=en">Google Scholar page</a>. My previous research centered allowing robots to have greater autonomy through novel sensor applications, but now I am focussed on increasing autonomy via the use of data-driven machine learning techniques.</p>
+<p>For a full list of my published work, see my <a href="scholar.google.com/citations?user=p3NT2IoAAAAJ&hl=en">Google Scholar page</a>. My previous research focussed on allowing robots to have greater autonomy through novel sensor applications, but now I am focussed on increasing autonomy via the use of data-driven machine learning techniques.</p>
 
 <p>This page is a work in progress, check back soon!</p>
 
