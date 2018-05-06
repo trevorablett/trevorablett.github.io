@@ -4,14 +4,14 @@ title: Research
 published: true
 ---
 
-<p>For a full list of my published work, see my <a href="scholar.google.com/citations?user=p3NT2IoAAAAJ&hl=en">Google Scholar page</a>. My previous research focussed on increasing robot autonomy via novel sensor applications, but now I am investigating the use of data-driven machine learning techniques, as opposed to traditional model-based methods, for allowing manipulators to leverage prior knowledge to complete novel tasks.</p>
+<p>For a full list of my published work, see my <a href="scholar.google.com/citations?user=p3NT2IoAAAAJ&hl=en"><b>Google Scholar page</b></a>. My previous research focussed on increasing robot autonomy via novel sensor applications, but now I am investigating the use of data-driven machine learning techniques, as opposed to traditional model-based methods, for allowing manipulators to leverage prior knowledge to complete novel tasks.</p>
 
 <hr/>
 
 <div>
-{% assign sorted_projects = site.research | sort:"order" %}
+{% assign sorted_research = site.research | sort:"order" %}
 
-{% for project in sorted_projects %}
+{% for project in sorted_research %}
 
     <div>
     
@@ -34,8 +34,8 @@ published: true
             </video>
         {% endif %}
   
-        {% if publication.links.doi %}
-            <a href="{{ publication.links.doi }}" target="_blank"><b>{{ publication.title }}</b></a>
+        {% if publication.doi %}
+            <a href="{{ publication.doi }}" target="_blank"><b>{{ publication.title }}</b></a>
         {% else %}
             <b>{{ publication.title }}</b>
         {% endif %}
@@ -53,10 +53,6 @@ published: true
 
         {% if publication.award %}
             <b>{{ publication.award }}</b><br/>
-        {% endif %}
-
-        {% if publication.links.link %}
-            <a href="{{ publication.links.link }}" target="_blank"><i class="far fa-file-alt"></i>&nbsp;Link</a>&nbsp;
         {% endif %}
         
         {% if publication.links.preprint %}
@@ -87,6 +83,8 @@ published: true
     {% endfor %}
 
     </div>
-    <hr/>
+    {% unless forloop.last %}
+        <hr/>
+    {% endunless %}
 {% endfor %}
 </div>

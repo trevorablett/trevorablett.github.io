@@ -1,7 +1,6 @@
 # main text of home
 name: Trevor Ablett
-bio: 'PhD student at University of Toronto. <br />
-Part of the <a href="http://starslab.ca" target="_blank">STARS Lab</a>. <br />
+bio: 'PhD student at University of Toronto in the <a href="http://starslab.ca" target="_blank">STARS Lab</a>. <br />
 Researching the intersection of machine learning and robotics.'
 
 description: Personal Website for Trevor Ablett, PhD student at the University of Toronto.
@@ -76,7 +75,7 @@ width: normal
 research_nav: true
 
 # if you don't need projects, comment the *projects* configs below
-projects: true
+projects_nav: true
 
 # if you don't need "about" or "blog", comment them out below
 about: true
@@ -112,3 +111,4 @@ jekyll-mentions:
 
 collections:
     - research
+    - projects
