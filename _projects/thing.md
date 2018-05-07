@@ -1,7 +1,7 @@
 ---
 title: The "Thing"
 order: 1
-img: /assets/images/thing_cropped.png
+img: /assets/images/thing-with-sensors.png
 description: I, along with a number of my labmates, have been tasked with getting our mobile manipulator (affectionately titled the <a href="https://en.wikipedia.org/wiki/Thing_(The_Addams_Family)" target="_blank">Thing</a>) up and running. As part of these responsibilities, I've helped design a number of demonstrations for showing off its capabilities to visitors.
 publications:
   - date: 2018-02-20
