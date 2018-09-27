@@ -5,8 +5,6 @@ title: Projects
 
 <p> Here are number of the projects that I've worked on that don't directly relate to research. </p>
 
-<p> This page is a work in progress, check back soon! </p>
-
 <div>
 {% assign sorted_projects = site.projects | sort:"order" %}
 
