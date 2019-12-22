@@ -1,6 +1,6 @@
 ---
 title: Patents
-order: 10
+order: 1
 img:
 publications:
   - date: 2019-01-03

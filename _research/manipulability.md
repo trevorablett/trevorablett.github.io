@@ -1,6 +1,6 @@
 ---
 title: Manipulability Optimization
-order: 1
+order: 3
 img:
 publications:
   - date: 2019-11-04
