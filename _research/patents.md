@@ -3,6 +3,13 @@ title: Patents
 order: 10
 img:
 publications:
+  - date: 2019-01-03
+    img: 
+    title: "Method of Calibrating a Mobile Manipulator"
+    authors: Jonathan Kelly, Oliver Limoyo, <b> Trevor Ablett </b>
+    venue: "US Patent No. WO/2019/165561"
+    doi: https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2019165561
+    links:
   - date: 2017-04-20
     img: 
     title: "Vision-based system for navigating a robot through an indoor space"
