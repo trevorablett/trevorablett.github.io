@@ -4,7 +4,7 @@ title: Research
 published: true
 ---
 
-<p>For a full list of my published work, see my <a href="http://scholar.google.com/citations?user=p3NT2IoAAAAJ&hl=en"><b>Google Scholar page</b></a>. My previous research focussed on increasing robot autonomy via novel sensor applications, but now I am investigating the use of data-driven machine learning techniques, as opposed to traditional model-based methods, for allowing manipulators to leverage prior knowledge to complete novel tasks.</p>
+<p>For a full list of my published work, see my <a href="http://scholar.google.com/citations?user=p3NT2IoAAAAJ&hl=en"><b>Google Scholar page</b></a>. I am investigating methods for improving imitation learning algorithms on robotic manipulators, specifically by taking inspiration from neuroscience and behavior. My previous research involved improving the autonomy of manipulators through novel approaches to self-calibration. </p>
 
 <div>
 {% assign sorted_research = site.research | sort:"order" | reverse %}
