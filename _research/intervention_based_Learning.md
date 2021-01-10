@@ -8,7 +8,7 @@ publications:
     vid: 
     title: "Fighting Failures with FIRE: Failure Identification to Reduce Expert Burden in Intervention-Based Learning"
     authors: "<b>Trevor Ablett</b>, Filip Maric, and Jonathan Kelly"
-    venue: "Technical Report STARS-20-001"
+    venue: "Technical Report STARS-20-001, July 2020"
     note:
     doi:
     links:
