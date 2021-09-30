@@ -58,6 +58,10 @@ published: true
                 {% if publication.award %}
                     <b>{{ publication.award }}</b><br/>
                 {% endif %}
+
+                {% if publication.links.blog %}
+                    <a href="{{ publication.links.blog }}" target="_blank"><i class="fas fa-blog"></i>&nbsp;Blog</a>&nbsp;
+                {% endif %}
                 
                 {% if publication.links.preprint %}
                     <a href="{{ publication.links.preprint }}" target="_blank"><i class="far fa-file-alt"></i>&nbsp;Preprint</a>&nbsp;
