@@ -4,7 +4,7 @@ title: Research
 published: true
 ---
 
-<p>For a full list of my published work, see my <a href="http://scholar.google.com/citations?user=p3NT2IoAAAAJ&hl=en"><b>Google Scholar page</b></a>. I am investigating methods for improving imitation learning algorithms on robotic manipulators, specifically by taking inspiration from neuroscience and behavior. My previous research involved improving the autonomy of manipulators through novel approaches to self-calibration. </p>
+<p>For a full list of my published work, see my <a href="http://scholar.google.com/citations?user=p3NT2IoAAAAJ&hl=en"><b>Google Scholar page</b></a>. I am investigating methods for improving imitation learning algorithms for robotic manipulators, by making them more sample efficient and/or more applicable to the challenges of real robotic tasks. </p>
 
 <div>
 {% assign sorted_research = site.research | sort:"order" | reverse %}

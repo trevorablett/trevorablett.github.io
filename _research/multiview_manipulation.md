@@ -10,7 +10,7 @@ publications:
     authors: "<b>Trevor Ablett</b>, Daniel (Yifan) Zhai, Jonathan Kelly"
     venue: "In Proceedings of the 2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Prauge, Czech Republic, 27 Sept. - 1 Oct. 2021"
     note:
-    doi:
+    doi: https://doi.org/10.1109/IROS51168.2021.9636440
     links:
         blog: https://papers.starslab.ca/multiview-manipulation/
         preprint: https://arxiv.org/abs/2104.13907
