@@ -12,6 +12,7 @@ publications:
     note:
     doi: https://doi.org/10.1109/IROS51168.2021.9636440
     links:
+        code: https://github.com/utiasSTARS/multiview-manipulation
         blog: https://papers.starslab.ca/multiview-manipulation/
         preprint: https://arxiv.org/abs/2104.13907
         video: https://www.youtube.com/watch?v=oh0JMeyoswg
