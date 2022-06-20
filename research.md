@@ -56,7 +56,7 @@ published: true
                 {% endif %}
 
                 {% if publication.award %}
-                    <b>{{ publication.award }}</b><br/>
+                    <i class="fas fa-trophy"></i><b> {{ publication.award }} </b><i class="fas fa-trophy"></i><br/>
                 {% endif %}
 
                 {% if publication.links.blog %}
