@@ -1,6 +1,6 @@
 ---
 title: Multimodal Sequential Latent Variable Models
-order: 7
+order: 6
 img:
 publications:
   - date: 2022-06-13
