@@ -8,11 +8,12 @@ publications:
     vid: /assets/videos/lfgp_vs_dac_progression_4x_720p.mp4
     title: "Learning from Guided Play: Improving Exploration for Adversarial Imitation Learning with Simple Auxiliary Tasks"
     authors: "<b>Trevor Ablett</b>, Bryan Chan, Jonathan Kelly"
-    venue: "To appear in IEEE Robotics and Automation Letters (RA-L) and to be presented at the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS'23), Detroit, MI, USA, Oct. 1-5, 2023"
+    venue: "In IEEE Robotics and Automation Letters (RA-L) presented at the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS'23), Detroit, MI, USA, Oct. 1-5, 2023"
     note:
     doi: https://doi.org/10.1109/LRA.2023.3236882
     links:
         preprint: https://arxiv.org/abs/2301.00051
+        video: https://youtu.be/qa4EVT_HSOg?si=MNCMEcSEuoFxtcYZ
         code: https://github.com/utiasSTARS/lfgp
         blog: https://papers.starslab.ca/lfgp/
   - date: 2021-12-13
