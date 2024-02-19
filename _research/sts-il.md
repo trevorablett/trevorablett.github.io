@@ -14,5 +14,5 @@ publications:
     links:
         preprint: https://arxiv.org/abs/2311.01248
         code: https://github.com/SAIC-MONTREAL/tactile-il
-        blog: https://papers.starslab.ca/lfgp/
+        blog: https://papers.starslab.ca/sts-il/
 ---
