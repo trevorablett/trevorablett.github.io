@@ -10,7 +10,7 @@ publications:
     authors: "<b>Trevor Ablett</b>, Filip Maric, and Jonathan Kelly"
     venue: "Technical Report STARS-20-001, July 2020"
     note:
-    doi:
+    doi: https://doi.org/10.48550/arXiv.2007.00245
     links:
         preprint: https://arxiv.org/abs/2007.00245
         video: /assets/videos/2020-ablett-fire-supp-vid.mp4

@@ -5,3 +5,6 @@ gem 'html-proofer'
 gem 'jekyll-admin'
 
 gem "webrick", "~> 1.7"
+
+gem 'rack'
+gem 'rackup' 
