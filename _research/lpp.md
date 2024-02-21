@@ -8,7 +8,7 @@ publications:
     vid:
     title: "Working Backwards: Learning to Place by Picking"
     authors: "Oliver Limoyo, Abhisek Konar, <b>Trevor Ablett</b>, Jonathan Kelly, Francois R. Hogan, Gregory Dudek"
-    venue: "arXiv:2312.02352"
+    venue: "arXiv:2312.02352, December 2023"
     note:
     doi: https://doi.org/10.48550/arXiv.2312.02352
     links:
