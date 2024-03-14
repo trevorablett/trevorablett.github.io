@@ -4,8 +4,8 @@ order: 8
 img:
 publications:
   - date: 2023-12-04
-    img: /assets/images/lpp-thumb.png
-    vid:
+    img:
+    vid: /assets/videos/working-backwards.mp4
     title: "Working Backwards: Learning to Place by Picking"
     authors: "Oliver Limoyo, Abhisek Konar, <b>Trevor Ablett</b>, Jonathan Kelly, Francois R. Hogan, Gregory Dudek"
     venue: "arXiv:2312.02352, December 2023"
