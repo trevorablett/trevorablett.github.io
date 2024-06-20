@@ -14,8 +14,9 @@ about-pic: assets/images/trev_robot.jpg
 # If you want to include your resume, set to true
 # and specify source (external or local).
 resume: true
-# resume-external: true
-resume-url: assets/cv.pdf
+resume-external: true
+# resume-url: assets/cv.pdf
+resume-url: https://github.com/trevorablett/cv/blob/main/cv.pdf?raw=true
 
 url: https://trevorablett.github.io
 # your url: http://USERNAME.github.io
