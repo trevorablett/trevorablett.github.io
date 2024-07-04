@@ -10,9 +10,9 @@ publications:
     authors: "<b>Trevor Ablett</b>, Bryan Chan, Jayce Haoran Wang, Jonathan Kelly"
     venue: "Submitted to the Conference on Robot Learning (CoRL'24), Munich, Germany, Nov. 6-9, 2024"
     note:
-    doi:
+    doi: https://doi.org/10.48550/arXiv.2407.03311
     links:
-        preprint:
+        preprint: https://arxiv.org/abs/2407.03311
         video:
         code: https://github.com/utiasSTARS/vpace
         blog: https://papers.starslab.ca/vpace/
