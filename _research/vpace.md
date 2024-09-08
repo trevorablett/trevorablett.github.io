@@ -6,9 +6,9 @@ publications:
   - date: 2024-07-03
     img:
     vid: /assets/videos/vpace_real_door_big_720_crf28.mp4
-    title: "Value-Penalized Auxiliary Control from Examples for Learning without Rewards or Demonstrations"
+    title: "Efficient Imitation Without Demonstrations via Value-Penalized Auxiliary Control from Examples"
     authors: "<b>Trevor Ablett</b>, Bryan Chan, Jayce Haoran Wang, Jonathan Kelly"
-    venue: "Submitted to the Conference on Robot Learning (CoRL'24), Munich, Germany, Nov. 6-9, 2024"
+    venue: "Submitted to the IEEE International Conference on Robotics and Automation (ICRA'25), Atlanta, USA, May 19-23, 2025"
     note:
     doi: https://doi.org/10.48550/arXiv.2407.03311
     links:
