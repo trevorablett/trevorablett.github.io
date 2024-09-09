@@ -8,7 +8,7 @@ publications:
     vid: 
     title: "Learning Sequential Latent Variable Models from Multimodal Time Series Data"
     authors: "Oliver Limoyo, <b>Trevor Ablett</b>, Jonathan Kelly"
-    venue: "Accepted to the International Conference on Intelligent Autonomous Systems (IAS'17), Zagreb, Croatia, June 13-16, 2022"
+    venue: "International Conference on Intelligent Autonomous Systems (IAS'17), Zagreb, Croatia, June 13-16, 2022"
     note: 
     award: "Finalist for the Best Paper Award"
     doi: https://doi.org/10.1007/978-3-031-22216-0_35

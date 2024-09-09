@@ -8,7 +8,7 @@ publications:
     vid: /assets/videos/multiview-thumbnail-vid-lq.webm
     title: "Seeing All the Angles: Learning Multiview Manipulation Policies for Contact-Rich Tasks from Demonstrations"
     authors: "<b>Trevor Ablett</b>, Daniel (Yifan) Zhai, Jonathan Kelly"
-    venue: "In Proceedings of the 2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Prauge, Czech Republic, 27 Sept. - 1 Oct. 2021"
+    venue: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS'21), Prauge, Czech Republic, 27 Sept. - 1 Oct. 2021"
     note:
     doi: https://doi.org/10.1109/IROS51168.2021.9636440
     links:

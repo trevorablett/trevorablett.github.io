@@ -73,7 +73,7 @@ width: normal
 # paginate_path: "blog/:num/"
 
 # added categories
-research_nav: true
+research_nav: false
 
 # if you don't need projects, comment the *projects* configs below
 projects_nav: true

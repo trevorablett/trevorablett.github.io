@@ -1,25 +1,33 @@
 <nav class="{% if page.title == "Home" %}nav-home{% else %}nav{% endif %}">
     <ul class="list">
-        {% if page.title != "Home" %}
+        <!-- {% if page.title != "Home" %}
             <li class="item">
                 <a class="link" href="{{ site.url }}/">Home</a>
             </li>
-        {% endif %}
-        
-        {% if site.about == true %}
-            {% if page.title != "About" %}
-                <li class="item">
-                    <a class="link" href="{{ site.url }}/about">
-                        {% if page.title == "Home" %}
-                            <img class="ilink" src="{{ site.url }}/assets/images/robot-wave-icon.jpg" alt="About">
-                        {% endif %}
-                        About
-                    </a>
-                </li>
-            {% endif %}
-        {% endif %}
-        
-        {% if site.research_nav == true %}
+        {% endif %} -->
+
+        <li class="item">
+            <a class="link" href="{{ site.url }}/">
+                Research
+                <img class="ilink" src="{{ site.url }}/assets/images/beaker.png" height="15" alt="Research">
+            </a>
+        </li>
+
+        <li class="item">
+            <a class="link" href="{{ site.url }}/about">
+                About
+                <img class="ilink" src="{{ site.url }}/assets/images/robot-wave-icon.jpg" height="15" alt="About">
+            </a>
+        </li>
+
+        <li class="item">
+            <a class="link" href="{{ site.url }}/projects">
+                Projects
+                <img class="ilink" src="{{ site.url }}/assets/images/robot-arm-icon.png" height="15" alt="Projects">
+            </a>
+        </li>
+
+        <!-- {% if site.research_nav == true %}
             {% if page.title != "Research" %}
                 <li class="item">
                     <a class="link" href="{{ site.url }}/research">
@@ -27,11 +35,26 @@
                             <img class="ilink" src="{{ site.url }}/assets/images/beaker.png" alt="Research">
                         {% endif %}
                         Research
+                        <img class="ilink" src="{{ site.url }}/assets/images/beaker.png" height="15" alt="Research">
                     </a>
                 </li>
             {% endif %}
-        {% endif %}
-
+        {% endif %} -->
+        
+        <!-- {% if site.about == true %}
+            {% if page.title != "About" %}
+                <li class="item">
+                    <a class="link" href="{{ site.url }}/about">
+                        {% if page.title == "Home" %}
+                            <img class="ilink" src="{{ site.url }}/assets/images/robot-wave-icon.jpg" alt="About">
+                        {% endif %}
+                        About
+                        <img class="ilink" src="{{ site.url }}/assets/images/robot-wave-icon.jpg" height="15" alt="About">
+                    </a>
+                </li>
+            {% endif %}
+        {% endif %} -->
+        
         {% if site.blog == true %}
             {% if page.title != "Blog" %}
                 <li class="item">
@@ -40,18 +63,19 @@
             {% endif %}
         {% endif %}
 
-        {% if site.projects_nav == true %}
+        <!-- {% if site.projects_nav == true %}
             {% if page.title != "Projects" %}
-                <li class="item">
-                    <a class="link" href="{{ site.url }}/projects">
-                        {% if page.title == "Home" %}
-                            <img class="ilink" src="{{ site.url }}/assets/images/robot-arm-icon.png" alt="Projects">
-                        {% endif %}
-                        Projects
-                    </a>
-                </li>
+            <li class="item">
+                <a class="link" href="{{ site.url }}/projects">
+                    {% if page.title == "Home" %}
+                        <img class="ilink" src="{{ site.url }}/assets/images/robot-arm-icon.png" alt="Projects">
+                    {% endif %}
+                    Projects
+                    <img class="ilink" src="{{ site.url }}/assets/images/robot-arm-icon.png" height="15" alt="Projects">
+                </a>
+            </li>
             {% endif %}
-        {% endif %}
+        {% endif %} -->
 
         {% if site.resume == true %}
             <li class="item">
@@ -60,6 +84,7 @@
                         <img class="ilink" src="{{ site.url }}/assets/images/paper-icon.png" alt="CV">
                     {% endif %}
                     CV
+                    <img class="ilink" src="{{ site.url }}/assets/images/paper-icon.png" height="15" alt="CV">
                 </a>
             </li>
         {% endif %}
