@@ -16,4 +16,5 @@ publications:
         video: https://youtu.be/1BgS78-5_vA?si=2A0hkYWMT7rFjMuF
         code: https://github.com/SAIC-MONTREAL/tactile-il
         blog: https://papers.starslab.ca/sts-il/
+        slides: https://youtu.be/8MU040jO_8k?si=z30KszmdHAy-iUgo
 ---

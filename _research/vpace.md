@@ -14,6 +14,7 @@ publications:
     links:
         preprint: https://arxiv.org/abs/2407.03311
         video:
+        slides: https://youtu.be/PgmWjTcfCVE?si=HpnSTCxKY2uNscDq
         code: https://github.com/utiasSTARS/vpace
         blog: https://papers.starslab.ca/vpace/
   - date: 2024-11-09
